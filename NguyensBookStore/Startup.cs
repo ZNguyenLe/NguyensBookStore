@@ -32,7 +32,7 @@ namespace NguyensBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddDefaultIdentity<IdentityUser>() // Removed the Options that was here before. 
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
         }
