@@ -12,3 +12,8 @@ continued assignment 2
 - added a dropdown menu with 3 actions
 - changed the dropdown text to Content Management.
 - added 3 new projects called NguyensBooks.DataAccess, Models, and Utility.
+
+- continued at home
+- installed the packages of relational and sqlserver
+- Modified the namespace in the ApplicationDbContext.cs file
+- 
