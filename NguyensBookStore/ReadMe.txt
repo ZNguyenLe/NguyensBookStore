@@ -16,4 +16,18 @@ continued assignment 2
 - continued at home
 - installed the packages of relational and sqlserver
 - Modified the namespace in the ApplicationDbContext.cs file
-- 
+- Moved Models into the NguyensBooks.Models project and deleted the original
+- added a project reference with DataAccess & Models. 
+- changed the namespace inside the ErrorViewModels.cs namespace to NguyensBookStore.Models.ViewModels
+- adjusted the homecontroller to either change the errorView on line 35 in HomeController.cs or include the 'using NguyensBookStore.Models.ViewModels;'
+
+- added a new class named SD.cs
+- modified the class to a public static class
+- added the project reference to the main project
+- added project reference to the models and utility within the DataAccess project
+- added a new area named customers
+- added the {area=Customer} within line 67 in Startup.cs
+- moved the HomeController.cs and deleted Models & Data folders in the Customer directory
+- included the [Area("Customer")] that will explicitly define that the controller is in the customer area.
+- Moved Home folder from Views/Shared to Areas/Views
+- Included Area and Customer into the namespace in HomeController.cs
