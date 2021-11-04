@@ -31,6 +31,7 @@ continued assignment 2
 - included the [Area("Customer")] that will explicitly define that the controller is in the customer area.
 - Moved Home folder from Views/Shared to Areas/Views
 - Included Area and Customer into the namespace in HomeController.cs
-- Included an Admin folder inside Areas
+- Included an Admin folder inside Areas & deleted the data / models folders, and the contollers folder 
+- commited & pushed to Github Repo
 
 - Finished Assignment 2 part 1 on 11/02/2021
