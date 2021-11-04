@@ -14,6 +14,7 @@ continued assignment 2
 - added 3 new projects called NguyensBooks.DataAccess, Models, and Utility.
 
 - continued at home
+- Updated a unique theme from bootswatch from Yeti demo'd in class to Cyborg Theme. 
 - installed the packages of relational and sqlserver
 - Modified the namespace in the ApplicationDbContext.cs file
 - Moved Models into the NguyensBooks.Models project and deleted the original
