@@ -51,4 +51,5 @@ Continued Assignment 2 Part 2 on 11/08/2021 at 2:54 PM in class
 - Created Category Class as Category.cs
 - added the content along with the dataannotations. 
 - added another migration as AddCategoryToDb in the DataAccess project and succeeded.
-- 
+- tried to update the existing migration & recieved an error saying that "the name AddCategoryToDb is used by an existing migration."
+- re added the new migration with the new file name as 20211108204250_AddCategoryToDb.cs
