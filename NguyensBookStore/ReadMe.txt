@@ -36,3 +36,19 @@ continued assignment 2
 - commited & pushed to Github Repo
 
 - Finished Assignment 2 part 1 on 11/02/2021
+
+Continued Assignment 2 Part 2 on 11/08/2021 at 2:54 PM in class
+- Opened & cloned the project repo from github
+- Cleaned and built the solution confirm that everything is working okay.
+- Copied the default connection & pasted as a comment to serve as a backup in appsetting.json
+- Tried to add a migration to test if it would match the migrations assembly in the NuGet Package Manager Console
+- Switched the Default Project to NguyensBooks.DataAccess and ran the same command.
+- The Migration is created with the name of 20211108200425_AddDefaultIdentityMigration.cs
+- reviewed the Migration.cs file created earlier in .DataAccess that contains SQL-like statemtns & syntax.
+- successfully ran the update-database command in the .DataAccess project and has succeeded.
+- found the table created in the SQL Server Object Explorer on the left side of the program window. 
+- tested application after checking if no errors. 
+- Created Category Class as Category.cs
+- added the content along with the dataannotations. 
+- added another migration as AddCategoryToDb in the DataAccess project and succeeded.
+- 
