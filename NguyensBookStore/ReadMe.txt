@@ -53,3 +53,12 @@ Continued Assignment 2 Part 2 on 11/08/2021 at 2:54 PM in class
 - added another migration as AddCategoryToDb in the DataAccess project and succeeded.
 - tried to update the existing migration & recieved an error saying that "the name AddCategoryToDb is used by an existing migration."
 - re added the new migration with the new file name as 20211108204250_AddCategoryToDb.cs
+
+Continued Assignment 2 (part 2) on 11/11/2021 at 1:35PM
+- had an issue pulling from github repo that the entityframeworkcore was in the previous version of 5.0.8 now to 5.0.11
+- Created a Repository Directory inside the DataAccess project with a IRepository subfile.
+- Created a Repository.cs file in the same folder directory as Repository. 
+- Opened the repository.cs file from blackboard
+- implemented the code from the provided file to my own repository.cs file.
+- Created 2 more class files named CategoryRepository.cs & ICategoryRepository.cs within the Repository Folder.
+- Modified the CategoryRepository.cs file
