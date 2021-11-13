@@ -7,7 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using NguyensBooks.DataAccess.Repository;
+using NguyensBooks.DataAccess.Repository.IRepository;
 using NguyensBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -35,6 +36,7 @@ namespace NguyensBookStore
 
             services.AddDefaultIdentity<IdentityUser>() // Removed the Options that was here before. 
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

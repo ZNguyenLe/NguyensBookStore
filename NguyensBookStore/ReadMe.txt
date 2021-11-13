@@ -66,3 +66,12 @@ Continued Assignment 2 (part 2) on 11/11/2021 at 1:35PM
 Continued Assignment 2 (part 2) on 11/11/2021 at 9:40PM
 - Created ISP_Call.cs 
 - created SP_Call.cs
+- Created IUnitOfWork.cs (the typo mentioned from the slides)
+- created the class UnitOfWork
+- encountered the issue inside the Startup.cs file trying to implemennt the IUnitOfWork & UnitOfWork but it is saying that it is inaccessible due to its protection level and namespace is not
+  able to be found.
+- Might have found a solution where the public class inside the UnitOfWork.cs that the interface was not shown as per the screenshot provided in the slides. 
+- and the public interface was not defined inside the UnitOfWork.cs file (was not shown in the slides. this might be the missing piece)
+- In the screenshot from the assignment 2 slides. The Public Class UnitOfWork in the IUnitOfWork.cs File was missing the public Interface
+- Hopefully solved the issue by declaring the interface inside the UnitOfWOrk.cs file
+- and now the error from the Startup.cs file disappeared.
