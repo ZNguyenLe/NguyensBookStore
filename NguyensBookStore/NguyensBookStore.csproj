@@ -31,8 +31,4 @@
     <ProjectReference Include="..\NguyensBooks.Utility\NguyensBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-  </ItemGroup>
-
 </Project>

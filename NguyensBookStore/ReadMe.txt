@@ -75,3 +75,27 @@ Continued Assignment 2 (part 2) on 11/11/2021 at 9:40PM
 - In the screenshot from the assignment 2 slides. The Public Class UnitOfWork in the IUnitOfWork.cs File was missing the public Interface
 - Hopefully solved the issue by declaring the interface inside the UnitOfWOrk.cs file
 - and now the error from the Startup.cs file disappeared.
+- updated as to 2021-11-13 at 12:10AM and pushed to github 
+- double checked if there were any errors before pushing project to github.
+
+Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
+- Added a new Controllers folder (mine was not there apparently). 
+- created a new controller.cs file named CategoryController.cs
+- added the content that was required for the controller
+- now creating a new folder named Category inside Areas/View directory
+- created a new Index.cshtml template inside Areas/Views/Category 
+- opened the Category Index View from blackboard provided inside the Assignment 2 - Files folder
+- copied and pasted that provided code into index.cshtml.
+- Saved and ran the application
+- made sure to type the full link directory in the search box on the browser to the Category page.
+- confirmed that it is working.
+- Changed the nav-link code on _Layout.cshtml around line 30 to link towards the new Category section
+- moved that entire line to the class="dropdown-menu".
+- added another div that focuses on the trash-can and edit icon from the FontAwesome Website. 
+- ran the application again and verified it is working.
+- added a Javascript file named category.js
+- blackboard was showing the code and could not download so had to manually create a new .js file and copy pasted code
+- replaced the return statement in the js file from the one created in the Index.cshtml
+- added the script section with the script source inside Index.cshtml
+- ran and tested the application, it worked up to the point after a delay when visiting the category page.
+- it froze a couple seconds later and gave me an error.
