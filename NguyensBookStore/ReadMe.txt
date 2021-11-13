@@ -99,3 +99,4 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - added the script section with the script source inside Index.cshtml
 - ran and tested the application, it worked up to the point after a delay when visiting the category page.
 - it froze a couple seconds later and gave me an error.
+- the issue is supposedly saying there's something wrong with the GetAll method in the Repository.cs
