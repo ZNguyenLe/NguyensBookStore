@@ -100,3 +100,7 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - ran and tested the application, it worked up to the point after a delay when visiting the category page.
 - it froze a couple seconds later and gave me an error.
 - the issue is supposedly saying there's something wrong with the GetAll method in the Repository.cs
+- Failed to load resource: the server responded with a status of 500 (Internal Server Error) [http://localhost:2185/Admin/Category/GetAll?_=1636860169183]
+- solved the issue where it's complicating things inside the appsetting.json file
+- tried to see if the trash/edit icons would show but I have no records shown so it will not appear.
+- completed Assignment 2 Part 2 on 2021-11-14 at 1:15PM
