@@ -104,3 +104,6 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - solved the issue where it's complicating things inside the appsetting.json file
 - tried to see if the trash/edit icons would show but I have no records shown so it will not appear.
 - completed Assignment 2 Part 2 on 2021-11-14 at 1:15PM
+
+11/15/2021 
+- had to update database in class before marking because the category form page kept crashing. with the error on the GetAll Method.
