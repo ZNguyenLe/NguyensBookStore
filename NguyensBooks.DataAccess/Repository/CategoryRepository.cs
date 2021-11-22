@@ -24,7 +24,7 @@ namespace NguyensBooks.DataAccess.Repository
             if (objFromDb != null) //this saves changes if its not null
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
+                //_db.SaveChanges();
 
             }
         }

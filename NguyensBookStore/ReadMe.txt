@@ -107,3 +107,16 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 
 11/15/2021 
 - had to update database in class before marking because the category form page kept crashing. with the error on the GetAll Method.
+
+11/22/2021 1:55PM
+- continued assignment 2 part 2 to apply code to activate the edit, delete, and create buttons
+- created Upsert.cshtml RAZOR view and edited the html form inside it
+- Created the _CreateAndBackToListButton.cshtml file in the general views folder.
+- Created another partial view named _EditAndBackToListButton.cshtml file
+- updated and modified the Upsert.cshtml file with the @model statement
+- had a visual issue where the bottom border box closed at the wrong spot
+- updated the upsert.cshtml
+- added another @ssection scripts in upsert.cshtml
+- added more code to the category.js file
+- 
+
