@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NguyensBooks.DataAccess.Repository.IRepository;
 using NguyensBooks.Models;
 
+
 namespace NguyensBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -21,6 +22,7 @@ namespace NguyensBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+        
         public IActionResult Upsert(int? id)
         {
             Category category = new Category();
@@ -59,10 +61,10 @@ namespace NguyensBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+            // return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-        #endregion
         [HttpDelete]
         public IActionResult Delete(int id)
         {
@@ -73,7 +75,9 @@ namespace NguyensBookStore.Areas.Admin.Controllers
             }
             _unitOfWork.Category.Remove(objFromDb);
             _unitOfWork.Save();
-            return Json(new { success = true, message = "Delete successful"});
+            return Json(new { success = true, message = "Delete successful" });
         }
+        #endregion
+
     }
 }

@@ -116,7 +116,12 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - updated and modified the Upsert.cshtml file with the @model statement
 - had a visual issue where the bottom border box closed at the wrong spot
 - updated the upsert.cshtml
-- added another @ssection scripts in upsert.cshtml
+- added another @section scripts in upsert.cshtml
 - added more code to the category.js file
+- there was an issue with my delete button and could not function, the btn-danger wasnt showing
+- solve the issue where spacing mattered. the delete button works now.
+- completed the edit/add category/delete sections
+
+- started assignment 2 part 3 
 - 
 
