@@ -130,6 +130,15 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - Created a new Model named CoverTypel.cs with the ID and Name credentials and included it as a public class.
 - updated and added new files named CoverTypeRepository.cs class file & ICoverTypeRepository.cs Interface file.
 - included CoverType to IUnityOfWork & UnitOfWork
-- Created a new migration named AddDefaultIdentityMigration2 with the filename as 20211124041134_AddDefaultIdentityMigration2.cs (timestamp is included) inside the DataAccess project
+- Created a new migration named AddDefaultIdentityMigration2 with the filename as 
+	20211124041134_AddDefaultIdentityMigration2.cs (timestamp is included) inside the DataAccess project.
+	but this is supposedly my AddCoverTypeToDb.cs table kinda
+- added the covertype stuff into the UnitOfWork.cs and IUnitOfWork.cs to make the covertype accessible
+- Created a new Folder named CoverType with the new View of Index.cshtml inside the public view directory.
+- Created and edited the code inside the Index.cshtml of CoverType
+- saved everything and tested code 
+- tried navigating to the CoverType tab and it didnt work
+- the admin area was not specified in the CoverTypeController.cs
+- implemented the admin area fix and now the page loads.
 - 
 
