@@ -140,5 +140,6 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - tried navigating to the CoverType tab and it didnt work
 - the admin area was not specified in the CoverTypeController.cs
 - implemented the admin area fix and now the page loads.
+- added buttons to the form to test if it will display.
 - 
 
