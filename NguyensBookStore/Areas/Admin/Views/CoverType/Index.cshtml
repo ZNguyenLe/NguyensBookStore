@@ -9,7 +9,7 @@
         <h2 class="text-primary">CoverType List </h2>
     </div>
     <div class="col-6 text-right">
-        <a class="btn btn-primary"><i class="fas fa-plus"></i> &nbsp; Create New CoverType</a>
+        <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create New CoverType</a>
     </div>
 </div>
 
@@ -24,6 +24,10 @@
         </thead>
     </table>
 </div>
+
+@section Scripts {
+<script src="~/js/covertype.js"></script>
+}
 <!--
 <div class="text-center">
     <a href="/Admin/CoverType/Upsert/id" class="btn btn-success text-white" style="cursor:pointer">

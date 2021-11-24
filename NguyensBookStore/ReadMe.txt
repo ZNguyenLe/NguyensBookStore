@@ -141,5 +141,11 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - the admin area was not specified in the CoverTypeController.cs
 - implemented the admin area fix and now the page loads.
 - added buttons to the form to test if it will display.
-- 
+- Created an Upsert cshtml. while in the process of creating the functioning buttons.
+- My buttons are working but cannot add a covertype, but the alert for the requirement shows if textbox is empty
+- created a new JS file for CoverType. included the function and tried to get the stuff working
+- receieved an exception error when trying to create through the edit covertype section
+- ran the application, tested the CoverType functions to add but i still cannot delete
+- there was a typo on my delete function inside my covertype.js file and now resolved. I can now delete the new datatables.
+- saved everything and pushed to github
 

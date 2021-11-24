@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using NguyensBooks.DataAccess.Repository.IRepository;
 using NguyensBooks.Models;
 
-
 namespace NguyensBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
