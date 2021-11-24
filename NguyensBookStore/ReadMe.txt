@@ -147,5 +147,16 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - receieved an exception error when trying to create through the edit covertype section
 - ran the application, tested the CoverType functions to add but i still cannot delete
 - there was a typo on my delete function inside my covertype.js file and now resolved. I can now delete the new datatables.
-- saved everything and pushed to github
+- saved everything and pushed to github 
 
+(completed Assignment 2 part 1 at 4:14PM on 11/24/2021)
+
+continued assignment 2 but now part 3 section 2 on 11/24/2021 at 4:30PM
+- created a new class named Product.cs in Models
+- added the get set methods within product.cs
+- added reference to the new products piece to the database in the ApplicationDbContext.cs File
+- added a new migration file named with the timestamp here as 20211124213838_addProductToDb.cs
+- viewed the table from within the SQL Server Object Explorer
+- updated the producted class so that Title, ISBN and Author are required
+- created another migration named 20211124214320_addValidationToProduct.cs (timestamp included)
+- stopped assignment but pushed everything to github.
