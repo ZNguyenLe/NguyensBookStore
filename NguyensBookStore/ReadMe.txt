@@ -114,6 +114,8 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - Created the _CreateAndBackToListButton.cshtml file in the general views folder.
 - Created another partial view named _EditAndBackToListButton.cshtml file
 - updated and modified the Upsert.cshtml file with the @model statement
+
+11/23/2021 3:00PM
 - had a visual issue where the bottom border box closed at the wrong spot
 - updated the upsert.cshtml
 - added another @section scripts in upsert.cshtml
@@ -122,6 +124,12 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 - solve the issue where spacing mattered. the delete button works now.
 - completed the edit/add category/delete sections
 
+11/23/2021 10:20PM
 - started assignment 2 part 3 
+- ran the application at home to test if the delete function is working after updating database (which is successful)
+- Created a new Model named CoverTypel.cs with the ID and Name credentials and included it as a public class.
+- updated and added new files named CoverTypeRepository.cs class file & ICoverTypeRepository.cs Interface file.
+- included CoverType to IUnityOfWork & UnitOfWork
+- Created a new migration named AddDefaultIdentityMigration2 with the filename as 20211124041134_AddDefaultIdentityMigration2.cs (timestamp is included) inside the DataAccess project
 - 
 

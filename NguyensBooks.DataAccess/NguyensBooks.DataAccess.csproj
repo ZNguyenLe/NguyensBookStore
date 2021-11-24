@@ -16,7 +16,7 @@
 
 	<ItemGroup>
 		<Folder Include="Data\" />
-		<Folder Include="Repository\IRepository\" />
+		<Folder Include="Repository\IRepository\"/>
 	</ItemGroup>
 	
   <ItemGroup>
