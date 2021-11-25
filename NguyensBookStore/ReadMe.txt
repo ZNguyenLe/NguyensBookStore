@@ -176,3 +176,6 @@ continued assignment 2 part 3 at 7:25PM on 11/24/2021
 - Manually typed in the commented code from the slides because there was nothing about the Upsert Post Action method on blackboard.
 - Every time I run the application, the exception will trigger every time. but everything works after clicking 'continue'
 - Completed Assignment 2 part 3(Section 3) on 2021-11-24 at 9:32PM
+
+2021/11/25
+- found out why my table was looking so ugly. changed the style classes and now it is readable. :)
