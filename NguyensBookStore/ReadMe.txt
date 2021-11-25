@@ -151,7 +151,7 @@ Continuing Project on 2.3 Category CRUD at 2021-11-13 at 12:10AM
 
 (completed Assignment 2 part 1 at 4:14PM on 11/24/2021)
 
-continued assignment 2 but now part 3 section 2 on 11/24/2021 at 4:30PM
+continued assignment 2 but now part 3 section 1 second slide ish on 11/24/2021 at 4:30PM
 - created a new class named Product.cs in Models
 - added the get set methods within product.cs
 - added reference to the new products piece to the database in the ApplicationDbContext.cs File
@@ -160,3 +160,19 @@ continued assignment 2 but now part 3 section 2 on 11/24/2021 at 4:30PM
 - updated the producted class so that Title, ISBN and Author are required
 - created another migration named 20211124214320_addValidationToProduct.cs (timestamp included)
 - stopped assignment but pushed everything to github.
+
+continued assignment 2 part 3 at 7:25PM on 11/24/2021
+- created a new class and interface for product
+- added a product controler to Areas > Admin > Controllers
+- created a ProductController and added content inside it.
+- had to install the Microsoft.AspNetCore.Mvc.ViewFeatures while modifying the ProductVM
+- Created an Upsert method for the Product Controller.
+- commented out the Upser methoed and added the API CALLS with the GetAll() & Delete Methods
+- created a new JS file and took the content from category.js and pasted it over and modified it
+- ran the application, and did get an exception and clicked 'continue'
+
+- created upsert.cshtml within the product directory of Areas/Admin/Views/Product
+- trying to add a rich textbox to the textarea with tiny.cloud using the API key
+- Manually typed in the commented code from the slides because there was nothing about the Upsert Post Action method on blackboard.
+- Every time I run the application, the exception will trigger every time. but everything works after clicking 'continue'
+- Completed Assignment 2 part 3(Section 3) on 2021-11-24 at 9:32PM

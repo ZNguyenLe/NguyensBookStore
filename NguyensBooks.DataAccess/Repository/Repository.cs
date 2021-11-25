@@ -49,7 +49,7 @@ namespace NguyensBooks.DataAccess.Repository
             {
                 return orderBy(query).ToList();
             }
-            return query.ToList();
+            return query.ToList(); //this definitely threw exceptions every time i run it
            // throw new NotImplementedException();
         }
 
