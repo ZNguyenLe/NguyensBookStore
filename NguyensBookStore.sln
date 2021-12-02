@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NguyensBookStore", "NguyensBookStore\NguyensBookStore.csproj", "{77DA3C52-E7B9-4D9A-A493-FFAD9F785515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyensBooks.DataAccess", "NguyensBooks.DataAccess\NguyensBooks.DataAccess.csproj", "{A0086195-F917-4057-982A-3418B899F88D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NguyensBooks.DataAccess", "NguyensBooks.DataAccess\NguyensBooks.DataAccess.csproj", "{A0086195-F917-4057-982A-3418B899F88D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyensBooks.Models", "NguyensBooks.Models\NguyensBooks.Models.csproj", "{5828B5F1-406F-4129-B4AE-5D7294E790F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NguyensBooks.Models", "NguyensBooks.Models\NguyensBooks.Models.csproj", "{5828B5F1-406F-4129-B4AE-5D7294E790F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyensBooks.Utility", "NguyensBooks.Utility\NguyensBooks.Utility.csproj", "{4252D80A-308A-4EEF-801B-6EAB2963725D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NguyensBooks.Utility", "NguyensBooks.Utility\NguyensBooks.Utility.csproj", "{4252D80A-308A-4EEF-801B-6EAB2963725D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

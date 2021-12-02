@@ -34,4 +34,8 @@
     <ProjectReference Include="..\NguyensBooks.Utility\NguyensBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>

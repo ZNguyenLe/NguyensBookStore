@@ -16,6 +16,7 @@ namespace NguyensBooks.DataAccess.Repository
 
         public ProductRepository(ApplicationDbContext db) : base(db)
         {
+            _db = db;
         }
 
         public void Update(Product product)
