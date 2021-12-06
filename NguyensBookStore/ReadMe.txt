@@ -179,3 +179,4 @@ continued assignment 2 part 3 at 7:25PM on 11/24/2021
 
 2021/11/25
 - found out why my table was looking so ugly. changed the style classes and now it is readable. :)
+- having an issue where nothing was being displayed on the page upon submittion with products
