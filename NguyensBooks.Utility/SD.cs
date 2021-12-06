@@ -8,5 +8,6 @@ namespace NguyensBooks.Utility
 {
     public static class SD
     {
+
     }
 }
